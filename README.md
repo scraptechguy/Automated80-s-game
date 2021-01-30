@@ -1,1 +1,1 @@
-# Automated80-s-game
+Too tired of pressing keys? This game will play itself, just sit back and enjoy!
