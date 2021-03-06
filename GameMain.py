@@ -232,3 +232,123 @@ while True:
             "Heyy",
             font=("Courier", 24, "normal")
         )
+
+
+    # Places with coins 
+
+    # c1
+    elif loc.xcor() == 50 and loc.ycor() == -50:
+
+        # Coin collecting mechanism
+        if coins == 0:
+            txt.clear()
+            txt.write(
+            "Hm, something shiny's lying on the ground. Yes! It's a coin. ",
+            font=("Courier", 24, "normal")
+            )
+
+            coins = 1
+
+        elif coins == 1 and c2 == 1:
+            txt.clear()
+            txt.write(
+            "Next one! Great.",
+            font=("Courier", 24, "normal")
+            )
+
+            coins = 2
+
+        elif coins == 1 and c3 == 1:
+            txt.clear()
+            txt.write(
+            "Another one! Good for you.",
+            font=("Courier", 24, "normal")
+            )
+
+            coins = 2
+
+        elif coins == 2 and c2 == 1 and c3 == 1:
+            coins = 3
+
+        c1 = 1
+
+    # c2
+    elif loc.xcor() == -50 and loc.ycor() == -50:
+
+        # Coin collecting mechanism
+        if coins == 0:
+            txt.clear()
+            txt.write(
+            "Hm, something shiny's lying on the ground. Yes! It's a coin. ",
+            font=("Courier", 24, "normal")
+            )
+
+            coins = 1
+
+        elif coins == 1 and c1 == 1:
+            txt.clear()
+            txt.write(
+            "Another one! Good for you.",
+            font=("Courier", 24, "normal")
+            )
+            coins = 2
+
+        elif coins == 1 and c3 == 1:
+            txt.clear()
+            txt.write(
+            "Next one! Great.",
+            font=("Courier", 24, "normal")
+            )
+
+            coins = 2
+
+        elif coins == 2 and c1 == 1 and c3 == 1:
+            coins = 3
+
+        c2 = 1
+
+    # c3
+    elif loc.xcor() == -100 and loc.ycor() == -50:
+
+        # Coin collecting mechanism
+        if coins == 0:
+            txt.clear()
+            txt.write(
+            "Hm, something shiny's lying on the ground. Yes! It's a coin. ",
+            font=("Courier", 24, "normal")
+            )
+
+            coins = 1
+
+        elif coins == 1 and c1 == 1:
+            txt.clear()
+            txt.write(
+            "Next one! Great.",
+            font=("Courier", 24, "normal")
+            )
+
+            coins = 2
+
+        elif coins == 1 and c2 == 1:
+            txt.clear()
+            txt.write(
+            "Another one! Yaaay.",
+            font=("Courier", 24, "normal")
+            )
+
+            coins = 2
+
+        elif coins == 2 and c1 == 1 and c2 == 1:
+            coins = 3
+
+        c3 = 1
+
+    elif coins == 3:
+        break
+
+txt.clear()
+pen.clear()
+cor.clear()
+cn.clear()
+fill.clear()
+loc.hideturtle()
