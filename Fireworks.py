@@ -374,4 +374,100 @@ purpleRocket8.hideturtle()
 
 redRocket = turtle.Turtle()
 redRocket.hideturtle()
+redRocket.color("gray")
+redRocket.shape("square")
+redRocket.shapesize(0.3, 1.5)
+redRocket.penup()
+redRocket.goto(300, -450)
+redRocket.showturtle()
+redRocket.left(90)
+redRocket.forward(600)
+redRocket.hideturtle()
+
+redRocket2.showturtle()
+redRocket3.showturtle()
+redRocket4.showturtle()
+redRocket5.showturtle()
+redRocket6.showturtle()
+redRocket7.showturtle()
+redRocket8.showturtle()
+
+for i in range(30):
+
+	ry2 = redRocket2.ycor()
+	ry2 += 2
+	redRocket2.sety(ry2)
+
+	rx2 = redRocket2.xcor()
+	rx2 += 4
+	redRocket2.setx(rx2)
+
+
+	ry3 = redRocket3.ycor()
+	ry3 += 2
+	redRocket3.sety(ry3)
+
+	rx3 = redRocket3.xcor()
+	rx3 -= 4
+	redRocket3.setx(rx3)
+
+
+	ry4 = redRocket4.ycor()
+	ry4 += 2
+	redRocket4.sety(ry4)
+
+	rx4 = redRocket4.xcor()
+	rx4 += 3
+	redRocket4.setx(rx4)
+
+
+	ry5 = redRocket5.ycor()
+	ry5 += 2
+	redRocket5.sety(ry5)
+
+	rx5 = redRocket5.xcor()
+	rx5 -= 4
+	redRocket5.setx(rx5)
+
+
+	ry6 = redRocket6.ycor()
+	ry6 -= 2
+	redRocket6.sety(ry6)
+
+	rx6 = redRocket6.xcor()
+	rx6 -= 3
+	redRocket6.setx(rx6)
+
+
+	ry7 = redRocket7.ycor()
+	ry7 -= 1
+	redRocket7.sety(ry7)
+
+	rx7 = redRocket7.xcor()
+	rx7 += 2
+	redRocket7.setx(rx7)
+
+
+	ry8 = redRocket8.ycor()
+	ry8 += 5
+	redRocket8.sety(ry8)
+
+	rx8 = redRocket8.xcor()
+	rx8 -= 1
+	redRocket8.setx(rx8)
+
+
+redRocket.hideturtle()
+redRocket2.hideturtle()
+redRocket3.hideturtle()
+redRocket4.hideturtle()
+redRocket5.hideturtle()
+redRocket6.hideturtle()
+redRocket7.hideturtle()
+redRocket8.hideturtle()
+
+while True:
+	wn.update()
+
+
 
