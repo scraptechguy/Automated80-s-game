@@ -275,3 +275,103 @@ blueRocket8.hideturtle()
 
 
 
+
+purpleRocket = turtle.Turtle()
+purpleRocket.hideturtle()
+purpleRocket.color("gray")
+purpleRocket.shape("square")
+purpleRocket.shapesize(0.3, 1.5)
+purpleRocket.penup()
+purpleRocket.goto(300, -450)
+purpleRocket.showturtle()
+purpleRocket.left(90)
+purpleRocket.forward(600)
+purpleRocket.hideturtle()
+
+purpleRocket2.showturtle()
+purpleRocket3.showturtle()
+purpleRocket4.showturtle()
+purpleRocket5.showturtle()
+purpleRocket6.showturtle()
+purpleRocket7.showturtle()
+purpleRocket8.showturtle()
+
+for i in range(30):
+
+	py2 = purpleRocket2.ycor()
+	py2 += 2
+	purpleRocket2.sety(py2)
+
+	px2 = purpleRocket2.xcor()
+	px2 += 4
+	purpleRocket2.setx(px2)
+
+
+	py3 = purpleRocket3.ycor()
+	py3 += 2
+	purpleRocket3.sety(py3)
+
+	px3 = purpleRocket3.xcor()
+	px3 -= 4
+	purpleRocket3.setx(px3)
+
+
+	py4 = purpleRocket4.ycor()
+	py4 += 2
+	purpleRocket4.sety(py4)
+
+	px4 = purpleRocket4.xcor()
+	px4 += 3
+	purpleRocket4.setx(px4)
+
+
+	py5 = purpleRocket5.ycor()
+	py5 += 2
+	purpleRocket5.sety(py5)
+
+	px5 = purpleRocket5.xcor()
+	px5 -= 4
+	purpleRocket5.setx(px5)
+
+
+	py6 = purpleRocket6.ycor()
+	py6 -= 2
+	purpleRocket6.sety(py6)
+
+	px6 = purpleRocket6.xcor()
+	px6 -= 3
+	purpleRocket6.setx(px6)
+
+
+	py7 = purpleRocket7.ycor()
+	py7 -= 1
+	purpleRocket7.sety(py7)
+
+	px7 = purpleRocket7.xcor()
+	px7 += 2
+	purpleRocket7.setx(px7)
+
+
+	py8 = purpleRocket8.ycor()
+	py8 += 5
+	purpleRocket8.sety(py8)
+
+	px8 = purpleRocket8.xcor()
+	px8 -= 1
+	purpleRocket8.setx(px8)
+
+
+purpleRocket.hideturtle()
+purpleRocket2.hideturtle()
+purpleRocket3.hideturtle()
+purpleRocket4.hideturtle()
+purpleRocket5.hideturtle()
+purpleRocket6.hideturtle()
+purpleRocket7.hideturtle()
+purpleRocket8.hideturtle()
+
+
+
+redRocket = turtle.Turtle()
+redRocket.hideturtle()
+
